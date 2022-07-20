@@ -94,7 +94,6 @@ namespace ADFS_Health
 
         private void Probe()
         {
-            //this.remoteHost = "aws-usw2a-dc";
             Uri remoteUri = new Uri("http://" + this.remoteHost + "/adfs/probe/");
             while (true)
             {
